@@ -1,0 +1,51 @@
+# github Alacritty Colors
+font:
+  normal:
+    family: IosevkaFixed
+    style: Regular
+
+  bold:
+    family: IosevkaFixed
+    style: Bold
+
+  italic:
+    family: IosevkaFixed
+    style: Italic
+
+  bold_italic:
+    family: IosevkaFixed
+    style: Bold Italic
+
+  size: 11
+
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xff2a6a'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xea4a5a'
+    green:   '0x34d058'
+    yellow:  '0xffff00'
+    blue:    '0x00ffff'
+    magenta: '0xb392f0'
+    cyan:    '0x00ffff'
+    white:   '0xff2a6a'
+
+  # Bright colors
+  bright:
+    black:   '0x000000'
+    red:     '0xf97583'
+    green:   '0x85e89d'
+    yellow:  '0xffff00'
+    blue:    '0x00ffff'
+    magenta: '0xb392f0'
+    cyan:    '0x00ffff'
+    white:   '0xff2a6a'
+
+  indexed_colors:
+    - { index: 16, color: '0xd18616' }
+    - { index: 17, color: '0xf97583' }
